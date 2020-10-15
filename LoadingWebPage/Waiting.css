@@ -1,0 +1,64 @@
+body{
+  background-color:skyblue;
+}
+
+h1{
+  font-display: center; 
+  margin: 50px auto;
+  height: 40px;
+  width: 70%;
+}
+p{
+  font-size: 30px;
+  margin: 50px auto;
+  height: 40px;
+  width: 70%;
+}
+
+div {
+  height: 20px;
+  width: 60px;
+  background: black;
+  margin: auto;
+  
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#rect {
+    animation-name: rotate;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-fill-mode: forwards;
+
+}
+
+
+
+@keyframes rotate {
+
+  0%,  
+  100% {
+    transform: rotate(0deg);
+    background-color:red;
+  }
+  30% {
+    transform: rotate(90deg);
+    background-color:blue;
+
+  }
+  60% {
+    transform: rotate(180deg);
+    background-color:green;
+  }
+  90% {
+    transform: rotate(270deg);
+    
+    background-color:green;
+  }
+  100% {
+    transform: rotate(360deg);
+    background-color:red;
+  }
+}
+
