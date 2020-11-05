@@ -16,6 +16,19 @@ h2{
   width: 70%;
 }
 
+.button {
+  border: none;
+  color: red;
+  background-color:blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 p{
   font-size: 30px;
   margin: 50px auto;
